@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Glam Culture beauty website">
+        <title>Glam Culture | Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navbar" aria-label="Main navigation">
+                <a class="brand" href="home.html">
+                    <img class="logo" src="images/logo.png" alt="Glam Culture logo">
+                    <span>Glam Culture</span>
+                </a>
+                <button class="menu-btn" aria-expanded="false" aria-label="Open navigation">Menu</button>
+                <ul class="nav-links">
+                    <li><a href="home.html" class="active">Home</a>
+                    </li>
+                    <li><a href="about.html" class="">About Us</a>
+                    </li>
+                    <li><a href="services.html" class="">Services</a>
+                    </li>
+                    <li><a href="gallery.html" class="">Gallery</a>
+                    </li>
+                    <li><a href="contact.html" class="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="floating-glam" aria-hidden="true">
+            <img class="float-item" src="images/makeup.jpg" alt="">
+            <img class="float-item" src="images/nails.jpg" alt="">
+            <img class="float-item" src="images/hair.jpg" alt="">
+            <img class="float-item" src="images/facial.jpg" alt="">
+        </div>
+        <main>
+            <section class="hero">
+                <div class="hero-copy">
+                    <p class="eyebrow">Johannesburg Beauty Experience</p>
+                    <h1>Where Glam Becomes a Lifestyle.</h1>
+                    <p>Welcome to Glam Culture — a modern beauty space for hair, nails, makeup, facials and special occasions.</p>
+                    <a class="btn" href="services.html">Explore Our Services</a>
+                </div>
+                <div class="hero-image">
+                    <picture><source media="(max-width:600px)" srcset="images/beauty-480.jpg">
+                        <source media="(max-width:1000px)" srcset="images/beauty-900.jpg">
+                        <img src="images/beauty-1400.jpg" srcset="images/beauty-480.jpg 480w, images/beauty-900.jpg 900w, images/beauty-1400.jpg 1400w" sizes="(max-width:900px) 100vw, 45vw" alt="Glam Culture beauty inspiration">
+                    </picture>
+                    </div>
+                </section>
+                <section class="intro-strip reveal">
+                    <article>
+                        <strong>Feel Confident</strong>
+                        <span>Beauty that celebrates you.</span>
+                    </article>
+                    <article><strong>Quality Care</strong>
+                        <span>Professional service with attention to detail.</span>
+                    </article>
+                    <article><strong>Your Glam Moment</strong>
+                        <span>Everyday looks and special occasions.</span>
+                    </article>
+                </section>
+            </main>
+            <footer class="site-footer">
+                <p>&copy; 2026 ST10520197 | DISD Glam Culture</p>
+                <p>Beauty • Confidence • Self-expression</p>
+            </footer>
+            <script src="script.js"></script>
+        </body>
+        </html>
